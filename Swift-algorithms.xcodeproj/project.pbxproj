@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		83005E27298FAE1A000CFBCB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83005E26298FAE1A000CFBCB /* main.swift */; };
+		83005E2F298FAE3F000CFBCB /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83005E2E298FAE3F000CFBCB /* Queue.swift */; };
+		83005E32298FAE6F000CFBCB /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83005E31298FAE6F000CFBCB /* Heap.swift */; };
+		83005E35298FAEA3000CFBCB /* AbstractGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83005E34298FAEA3000CFBCB /* AbstractGraph.swift */; };
+		83005E37298FAEB1000CFBCB /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83005E36298FAEB1000CFBCB /* Vertex.swift */; };
+		83005E39298FAEC2000CFBCB /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83005E38298FAEC2000CFBCB /* Edge.swift */; };
+		83005E3B298FAEFA000CFBCB /* AdjacencyListGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83005E3A298FAEFA000CFBCB /* AdjacencyListGraph.swift */; };
+		83005E3D298FAF08000CFBCB /* AdjacencyMatrixGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83005E3C298FAF08000CFBCB /* AdjacencyMatrixGraph.swift */; };
+		83005E40298FAFD9000CFBCB /* breadthFirstSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83005E3F298FAFD9000CFBCB /* breadthFirstSearch.swift */; };
+		83005E432990D782000CFBCB /* deapthFristSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83005E422990D782000CFBCB /* deapthFristSearch.swift */; };
+		83005E462990D7CC000CFBCB /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83005E452990D7CC000CFBCB /* Stack.swift */; };
+		83005E492990EDA3000CFBCB /* Dijkstra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83005E482990EDA3000CFBCB /* Dijkstra.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +36,17 @@
 /* Begin PBXFileReference section */
 		83005E23298FAE1A000CFBCB /* Swift-algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Swift-algorithms"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83005E26298FAE1A000CFBCB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		83005E2E298FAE3F000CFBCB /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		83005E31298FAE6F000CFBCB /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
+		83005E34298FAEA3000CFBCB /* AbstractGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractGraph.swift; sourceTree = "<group>"; };
+		83005E36298FAEB1000CFBCB /* Vertex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vertex.swift; sourceTree = "<group>"; };
+		83005E38298FAEC2000CFBCB /* Edge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edge.swift; sourceTree = "<group>"; };
+		83005E3A298FAEFA000CFBCB /* AdjacencyListGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjacencyListGraph.swift; sourceTree = "<group>"; };
+		83005E3C298FAF08000CFBCB /* AdjacencyMatrixGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjacencyMatrixGraph.swift; sourceTree = "<group>"; };
+		83005E3F298FAFD9000CFBCB /* breadthFirstSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = breadthFirstSearch.swift; sourceTree = "<group>"; };
+		83005E422990D782000CFBCB /* deapthFristSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deapthFristSearch.swift; sourceTree = "<group>"; };
+		83005E452990D7CC000CFBCB /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		83005E482990EDA3000CFBCB /* Dijkstra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dijkstra.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +79,76 @@
 		83005E25298FAE1A000CFBCB /* Swift-algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				83005E442990D7C5000CFBCB /* Stack */,
+				83005E33298FAE93000CFBCB /* Graph */,
+				83005E30298FAE5B000CFBCB /* Heap */,
+				83005E2D298FAE21000CFBCB /* Queue */,
 				83005E26298FAE1A000CFBCB /* main.swift */,
 			);
 			path = "Swift-algorithms";
+			sourceTree = "<group>";
+		};
+		83005E2D298FAE21000CFBCB /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+				83005E2E298FAE3F000CFBCB /* Queue.swift */,
+			);
+			path = Queue;
+			sourceTree = "<group>";
+		};
+		83005E30298FAE5B000CFBCB /* Heap */ = {
+			isa = PBXGroup;
+			children = (
+				83005E31298FAE6F000CFBCB /* Heap.swift */,
+			);
+			path = Heap;
+			sourceTree = "<group>";
+		};
+		83005E33298FAE93000CFBCB /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				83005E472990ED8D000CFBCB /* Dijkstra */,
+				83005E412990D771000CFBCB /* DFS */,
+				83005E3E298FAFC5000CFBCB /* BFS */,
+				83005E34298FAEA3000CFBCB /* AbstractGraph.swift */,
+				83005E36298FAEB1000CFBCB /* Vertex.swift */,
+				83005E38298FAEC2000CFBCB /* Edge.swift */,
+				83005E3A298FAEFA000CFBCB /* AdjacencyListGraph.swift */,
+				83005E3C298FAF08000CFBCB /* AdjacencyMatrixGraph.swift */,
+			);
+			path = Graph;
+			sourceTree = "<group>";
+		};
+		83005E3E298FAFC5000CFBCB /* BFS */ = {
+			isa = PBXGroup;
+			children = (
+				83005E3F298FAFD9000CFBCB /* breadthFirstSearch.swift */,
+			);
+			path = BFS;
+			sourceTree = "<group>";
+		};
+		83005E412990D771000CFBCB /* DFS */ = {
+			isa = PBXGroup;
+			children = (
+				83005E422990D782000CFBCB /* deapthFristSearch.swift */,
+			);
+			path = DFS;
+			sourceTree = "<group>";
+		};
+		83005E442990D7C5000CFBCB /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				83005E452990D7CC000CFBCB /* Stack.swift */,
+			);
+			path = Stack;
+			sourceTree = "<group>";
+		};
+		83005E472990ED8D000CFBCB /* Dijkstra */ = {
+			isa = PBXGroup;
+			children = (
+				83005E482990EDA3000CFBCB /* Dijkstra.swift */,
+			);
+			path = Dijkstra;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +209,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83005E35298FAEA3000CFBCB /* AbstractGraph.swift in Sources */,
+				83005E32298FAE6F000CFBCB /* Heap.swift in Sources */,
+				83005E39298FAEC2000CFBCB /* Edge.swift in Sources */,
 				83005E27298FAE1A000CFBCB /* main.swift in Sources */,
+				83005E3B298FAEFA000CFBCB /* AdjacencyListGraph.swift in Sources */,
+				83005E492990EDA3000CFBCB /* Dijkstra.swift in Sources */,
+				83005E462990D7CC000CFBCB /* Stack.swift in Sources */,
+				83005E37298FAEB1000CFBCB /* Vertex.swift in Sources */,
+				83005E3D298FAF08000CFBCB /* AdjacencyMatrixGraph.swift in Sources */,
+				83005E40298FAFD9000CFBCB /* breadthFirstSearch.swift in Sources */,
+				83005E432990D782000CFBCB /* deapthFristSearch.swift in Sources */,
+				83005E2F298FAE3F000CFBCB /* Queue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
