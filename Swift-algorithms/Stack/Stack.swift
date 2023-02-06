@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Stack<T> {
+struct Stack<T> where T: Equatable {
   private var array = [T]()
   
   var isEmpty: Bool {
@@ -19,7 +19,9 @@ struct Stack<T> {
   }
   
   mutating func push(_ element: T) {
-    array.append(element)
+    if !array.contains(element) {
+      array.append(element)
+    }
   }
   
   mutating func pop() -> T? {
